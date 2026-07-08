@@ -1,0 +1,17 @@
+# Python 임시 파일 제외
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 가상환경 폴더 제외
+.venv/
+venv/
+env/
+ENV/
+
+# 맥북 사용자용 임시 파일 (혹시 맥 쓰시면 필요함)
+.DS_Store
+
+# 스트림릿 로컬 설정 파일 제외
+.streamlit/
